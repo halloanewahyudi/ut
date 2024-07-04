@@ -15,7 +15,7 @@ const dataSlide = [
     },
     {
         title: "Green Energy Building",
-        subtitle: " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        subtitle: " Lorem Ipsum.",
         image: "img/s3.webp"
     }
 ]
