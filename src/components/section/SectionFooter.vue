@@ -26,6 +26,7 @@ import IconYoutube from '../icons/IconYoutube.vue';
 
                 </div>
                 <div class="flex flex-col gap-5 lg:w-1/3  justify-end lg:items-end ">
+                    <img src="@/assets/img/satu-indonesia.png" alt="" srcset="" class="w-24 p-2 bg-white rounded-lg">
                     <div class="flex items-center gap-4 text-2xl lg:justify-end w-full">
                         <a href="#" class="hover:text-brand-1 duration-300">
                             <IconYoutube class="text-3xl"/>

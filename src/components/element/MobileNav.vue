@@ -20,11 +20,11 @@ const selectedIndex = ref(0)
                     </button>
                 </div> -->
                 <img src="@/assets/img/tombol-bahasa.png" alt="" srcset="" class="w-24">
-                    <button class="text-3xl text-dark-1 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                    <button class="text-3xl text-dark-1 w-10 h-10 flex-shrink-0 rounded-full bg-gray-100 flex items-center justify-center">
                         <IconMenu />
                     </button>
                 <div>
-                    <img src="@/assets/img/satu-indonesia.png" alt="" srcset="" class="w-24">
+                    <img src="@/assets/img/logo-moving-as-one.png" alt="" srcset="" class="">
                 </div>
             </nav>
         </div>
