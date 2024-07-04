@@ -9,12 +9,12 @@ import IconChevronRightVue from '../icons/IconChevronRight.vue';
 
 const dataSlide = [
     {
-        title: "Taking Step Toward Sustaibale Journey",
-        subtitle: " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        title: "Taking Step Toward to Sustainability Journey",
+        subtitle: " People, Planet, & Profit.",
         image: "img/s1.jpg"
     },
     {
-        title: "loremdanipsum",
+        title: "Green Energy Building",
         subtitle: " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         image: "img/s3.webp"
     }
