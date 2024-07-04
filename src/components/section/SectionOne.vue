@@ -11,12 +11,12 @@ const dataSlide = [
     {
         title: "Taking Step Toward Sustaibale Journey",
         subtitle: " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        image: "img/solarpanel.jpg"
+        image: "img/s1.jpg"
     },
     {
         title: "loremdanipsum",
         subtitle: " Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        image: "img/slider2.jpg"
+        image: "img/s2.jpg"
     }
 ]
 
@@ -38,7 +38,7 @@ slide.mount()
             <ul class="glide__slides">
                 <li class="pl-0 ml-0 glide__slide relative  mx-0 px-0 flex flex-col justify-center items-end pb-20 bg-cover bg-no-repeat text-white"
                     :style="{ backgroundImage: `url(${item.image})` }" v-for="item in dataSlide" :key="item">
-                    <div class="layer absolute top-0 left-0 w-full h-full  opacity-20"></div>
+                    <div class="layer absolute top-0 left-0 w-full h-full  opacity-30"></div>
                     <div class="slide-text max-w-[880px] mx-auto mt-auto px-6 relative text-center flex flex-col gap-4">
                         <h1 class="text-3xl lg:text-8xl font-bold"> {{ item.title }} </h1>
                         <h4 class="text-xl lg:text-2xl">{{ item.subtitle }}</h4>
@@ -70,7 +70,7 @@ slide.mount()
 }
 .layer{
     background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,0.6530987394957983) 0%, rgba(0,0,0,0.12088585434173671) 50%, rgba(0,0,0,0.5998774509803921) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.773546918767507) 13%, rgba(241,240,240,0) 100%);
 }
 .glide__arrow{
 @apply  hover:bg-brand-1 bg-opacity-30 duration-500 rounded-full flex justify-center items-center;
