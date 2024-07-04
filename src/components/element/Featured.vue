@@ -12,7 +12,7 @@ const buka = ref(false)
 </script>
 <template>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center rounded-lg relative min-h-full overflow-hidden overflow-y-auto py-6 lg:p-0">
-        <div class="feat-image lg:col-span-2 min-h-96 bg-cover bg-no-repeat"
+        <div class="feat-image lg:col-span-2 min-h-96 bg-cover bg-no-repeat bg-center"
             :style="{ backgroundImage: `url(${props.bg})` }">
         </div>
         <div class="p-6 lg:p-10 bg-brand-1 h-full flex flex-col justify-center gap-4 ">

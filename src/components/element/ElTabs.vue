@@ -2,7 +2,11 @@
 import { ref } from 'vue'
 import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 import solerpanel from '@/assets/img/solarpanel.jpg'
-import utnb from '@/assets/img/utnb.jpg'
+import utnb from '@/assets/img/st-green-building.jpg'
+import Hydro from '@/assets/img/st-mini-hydro-plant.jpg'
+import Bio from '@/assets/img/st-bio-diesel.jpg'
+import Sobat from '@/assets/img/st-sobat.jpg'
+
 import Featured from './Featured.vue';
 
 
@@ -27,14 +31,14 @@ const dataFeature = [
     title: 'Mini Hydro Power Plant',
     summary: 'UT membangun dua Pembangkit Listrik Tenaga Mini-hidro (PLTM)',
     description: 'UT membangun dua Pembangkit Listrik Tenaga Mini-hidro (PLTM) yaitu PLTM Kalipelus berkapasitas 0,5MW di Jawa Tengah dan PLTM Besai Kemu di Lampung yang memiliki kapasitas sebesar 7MW. PLTM Besai Kemu saat ini dalam proses konstruksi dan diperkirakan akan beroperasi pada akhir tahun 2023.UT melakukan strategi transisi melalui bisnis Energi Baru dan Terbarukan (EBT) dengan investasi pada PT Arkora Hydro Tbk (Arkora) dengan kepemilikan saham sebesar 31,49%. Arkora mengoperasikan dua PLTM, yaitu PLTM Cikopo 2 dengan kapasitas 7,4 MW dan PLTM Tomasa dengan kapasitas 10 MW.',
-    bg: utnb
+    bg: Hydro
   },
   {
     id: 4,
     title: 'Biodiesel(B20 & B30)',
     summary: 'Pemerintah RI melalui Peraturan Menteri ESDM No.41/2018, tanggal 24 Agustus, mewajibkan semua badan usaha Bahan Bakar Minyak (BBM)',
     description: 'Pemerintah RI melalui Peraturan Menteri ESDM No.41/2018, tanggal 24 Agustus, mewajibkan semua badan usaha Bahan Bakar Minyak (BBM), seperti Pertamina, untuk melakukan pencampuran bahan bakar nabati jenis biodiesel dengan BBM jenis minyak solar. Tujuan program biodiesel ini dimaksudkan untuk meningkatkan pemanfaatan energi baru dan terbarukan, serta mengurangi dampak emisi karbon dari penggunaan BBM. PAMA, sebagai pemegang Izin Usaha Jasa Pertambangan (IUJP), mendukung dan mengikuti semua ketentuan pemerintah terkait dengan pelaksanaan program biodiesel sejak tahun 2018. Bahan bakar yang digunakan PAMA dalam pelaksanaan kegiatan operasional sebagian besar dibeli dan dipasok oleh Pertamina.',
-    bg: utnb
+    bg: Bio
   },
   {
     id: 5,
@@ -45,7 +49,7 @@ Menciptakan lulusan/SDM berkualitas yang mampu bekerja dengan ahli sesuai bidang
 Membangun reputasi sekolah yang baik dan menjadi sekolah unggulan di wilayahnya.
 Menciptakan prestasi di bidang ilmu pengetahuan, baik teknis maupun non-teknis. 
 Sampai dengan saat ini, SOBAT telah membina sebanyak 1.614 sekolah dan 4.728 guru di seluruh Indonesia dengan total nilai bantuan yang telah diberikan untuk sekolah-sekolah dalam 3 tahun terakhir senilai Rp10.000.000.000..`,
-    bg: utnb
+    bg: Sobat
   }
 ]
 
