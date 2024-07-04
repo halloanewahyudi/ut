@@ -33,6 +33,8 @@ const selectedIndex = ref(0)
                 </div> -->
 
                 <div class="flex gap-4 items-center">
+
+                    <img src="@/assets/img/logo-moving-as-one.png" alt="" srcset="" class="">
                     <img src="@/assets/img/satu-indonesia.png" alt="" srcset="" class="w-24">
                    <!--  <div class="bg-brand-1 rounded-full flex items-center">
                         <button @click="selectedIndex = index" v-for="(item, index) in lang" :key="index"

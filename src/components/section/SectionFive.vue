@@ -1,8 +1,8 @@
 <script setup>
-import IconBuy from "@/assets/img/buy-product.png"
-import Iconmuseum from "@/assets/img/museum.png"
-import Iconrecruitment from "@/assets/img/recruitment.png"
-import Iconlocation from "@/assets/img/location.png"
+import IconBuy from "@/assets/img/icon-buy-product-blue.png"
+import Iconmuseum from "@/assets/img/icon-museum-blue.png"
+import Iconrecruitment from "@/assets/img/icon-recruitment-blue.png"
+import Iconlocation from "@/assets/img/icon-location-blue.png"
 import bg from "@/assets/img/backgroundyellow.jpg"
 import gsap from "gsap"
 import ScrollTrigger from "gsap/ScrollTrigger"
