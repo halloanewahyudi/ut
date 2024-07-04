@@ -34,7 +34,7 @@ onMounted(() => {
             end: '=+100',
             scrub: 1,
             //pin:true,
-            markers: true
+          //  markers: true
         }
     })
     tl.fromTo('.title-one', {
@@ -69,11 +69,10 @@ onMounted(() => {
             <h1 class="title-one text-3xl lg:text-7xl font-bold text-brand-1">
                 United Tractors
             </h1>
-            <h2 class="title-two text-2xl lg:text-6xl"> Sustainability Initiatives Solar</h2>
+            <h2 class="title-two text-2xl lg:text-6xl"> Sustainability Initiatives</h2>
         </div>
         <div class="feat">
             <ElTabs/>
         </div>
     </div>
-
 </template>
