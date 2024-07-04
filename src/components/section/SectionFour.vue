@@ -25,7 +25,7 @@ const latestNews = [
 ]
 </script>
 <template>
-    <div class="pt-16">
+    <div class="py-16">
         <div class="container">
             <div class="flex flex-col gap-5">
                 <div class="mb-4">
