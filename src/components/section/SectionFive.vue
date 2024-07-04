@@ -61,11 +61,11 @@ onMounted(() => {
                 </div>
                 <div class="p-4  text-center">
                     <img :src="Iconrecruitment" alt="" class="mx-auto">
-                    <span class="text-xl font-medium">Recruitmet</span>
+                    <span class="text-xl font-medium">Recruitment</span>
                 </div>
                 <div class="p-4  text-center">
                     <img :src="Iconlocation" alt="" class="mx-auto">
-                    <span class="text-xl font-medium">Find Out Branch</span>
+                    <span class="text-xl font-medium">Find Our Branch</span>
                 </div>
             </div>
         </div>

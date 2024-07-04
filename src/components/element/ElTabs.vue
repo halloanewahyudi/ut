@@ -67,7 +67,7 @@ function changeTab(index) {
         <Tab v-for="category in dataFeature" as="template" :key="category" v-slot="{ selected }">
           <button :class="['p-2',
             selected
-              ? ' text-member border-b-2 border-brand-1 ring-transparent'
+              ? ' text-member border-b-4 border-member  ring-transparent'
               : ' hover:text-member',
           ]">
             {{ category.title }}

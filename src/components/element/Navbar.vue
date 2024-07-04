@@ -10,7 +10,7 @@ const selectedIndex = ref(0)
         <div class="container">
             <nav class="flex justify-between items-center gap-2">
                 <div class="logo">
-                    <img src="@/assets/img/logo.png" alt="" srcset="" class="w-14">
+                    <img src="@/assets/img/logo-ut.png" alt="" srcset="" class="">
                 </div>
               <!--   <div class="flex gap-4 items-center justify-center">
                     <ul class="flex gap-3 items-center">

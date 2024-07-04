@@ -50,10 +50,10 @@ onMounted(() => {
 <template>
     <div class="section-two container relative">
         <div class="max-w-[860px] mx-auto py-20 flex flex-col justify-center items-center">
-            <h1 class="title-one text-3xl lg:text-7xl font-bold text-brand-1">
+            <h1 class="title-one text-3xl lg:text-7xl  text-brand-1">
                 United Tractors
             </h1>
-            <h2 class="title-two text-2xl lg:text-6xl"> Sustainability Initiatives</h2>
+            <h2 class="title-two text-2xl lg:text-6xl font-bold"> Sustainability Initiatives</h2>
         </div>
         <div class="feat">
             <ElTabs/>
