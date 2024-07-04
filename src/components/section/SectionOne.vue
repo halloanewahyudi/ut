@@ -59,7 +59,7 @@ slide.mount()
 <style scoped>
 .glide__slide{
     width: 100%;
-    min-height: calc(100vh - 70px);
+    min-height: 100vh;
 }
 .glide__slide .slide-text {
     @apply opacity-0 scale-110;
