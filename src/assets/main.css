@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 @layer base {
-    
+    html{
+      overflow-x: hidden;
+    }
     button:focus {
         outline: none;
        

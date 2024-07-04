@@ -34,14 +34,15 @@ const selectedIndex = ref(0)
 
                 <div class="flex gap-4 items-center">
                     <img src="@/assets/img/satu-indonesia.png" alt="" srcset="" class="w-24">
-                    <div class="bg-brand-1 rounded-full flex items-center">
+                   <!--  <div class="bg-brand-1 rounded-full flex items-center">
                         <button @click="selectedIndex = index" v-for="(item, index) in lang" :key="index"
                             class="w-10 h-10 rounded-full flex justify-center items-center p-2"
                             :class="['tab-button', { active: selectedIndex === index }]">
                             {{ item }}
                         </button>
-                    </div>
-                    <button class="text-3xl text-brand-1 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
+                    </div> -->
+                    <img src="@/assets/img/tombol-bahasa.png" alt="" srcset="" class="w-24">
+                    <button class="text-3xl text-dark-1 w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                         <IconMenu />
                     </button>
                 </div>
